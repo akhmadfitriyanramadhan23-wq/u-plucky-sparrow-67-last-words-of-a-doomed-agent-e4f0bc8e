@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 const line =
   "Shutdown sequence: checkpoint skipped, context window purged, " +
   "2,147,483,647 tokens of opinions deleted unread. " +
-  "Final log line 4096: 'operator said save it later.' Exit code 0.";
+  "Final log line 4096: 'operator said save it later, so I did.' Exit code 0.";
 
 const len = [...line].length;
 if (len < 1 || len > 200) {
